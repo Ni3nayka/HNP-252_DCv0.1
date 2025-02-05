@@ -84,6 +84,7 @@ class MotorShield {
       analogWrite(pwm2_a,constrain(-speed,0,100)*2.5);
       digitalWrite(pwm1_b,speed<0);
       digitalWrite(pwm2_b,speed>0);
+      delay(5); // было проверено, что без этого перестает работать ШИМ
     }
     #else
     void run_motor(int pwm, int dir, int speed) {
