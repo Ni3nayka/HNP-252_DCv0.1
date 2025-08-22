@@ -1,12 +1,12 @@
 /*
-   https://github.com/Ni3nayka/HNR-252_DCv0.1
+  https://github.com/Ni3nayka/HNP-252_DCv0.1
 
-   author: Egor Bakay <egor_bakay@inbox.ru> Ni3nayka
-   write:  Jan 2025
-   modify: Jan 2025
+  author: Egor Bakay <egor_bakay@inbox.ru> Ni3nayka
+  write:  Jan 2025
+  modify: August 2025
 */  
 
-#include <HNR-252_DCv0_1.h>
+#include <HNP-252_DCv0_1.h>
 MotorShield motors;
 
 void setup() {
